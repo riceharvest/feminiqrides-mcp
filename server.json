@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "nl.feminiqrides/booking",
+  "title": "Feminiq Rides: Amsterdam chauffeur (female driver)",
+  "description": "Book Amsterdam chauffeur rides, female driver option: Schiphol transfers, custom rides, tours.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.feminiqrides.nl/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.feminiqrides.nl/mcp"
+    }
+  ]
+}
